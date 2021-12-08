@@ -6,6 +6,9 @@ import os           # environment variables
 import inspect      # call stack inspection
 import random       # dumb random number generator
 import youtube_dl
+import argparse
+parser = argparse.ArgumentParser()
+parser.parse_args()
     
 from discord.ext import commands    # Bot class and utils
     
